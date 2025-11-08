@@ -1,0 +1,82 @@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Practice Page</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <style>
+    h1{
+      color: #642828;
+    }
+    body{
+      background-color: antiquewhite;
+    }
+    p{
+      color: #1f5411;
+    }
+    /* Optional custom colors */
+    .text-brown { color: brown; }
+    .text-aqua { color: aqua; }
+    .text-green { color: green; }
+
+    /* Custom flex section */
+    .flex-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    .image-column img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+    }
+
+    .text-column {
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Bootstrap grid section -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-6 col-sm-4 p-3 mt-4 bg-success text-white">الرَّحْمٰن (Ar-Raḥmān)</div>
+      <div class="col-6 col-sm-4 p-3 mt-4 bg-warning text-dark">الرَّحِيم (Ar-Raḥīm)</div>
+      <div class="col-6 col-sm-4 p-3 mt-4 bg-danger text-white">الْمَلِك (Al-Malik)</div>
+    </div>
+  </div>
+
+  <!-- Custom flex section -->
+  <div class="container">
+    <div class="flex-container">
+      <div class="image-column">
+        <img src="Screenshot 2025-11-03 184636.png" alt="Descriptive text">
+      </div>
+      <div class="text-column text-center">
+        <h1>Who Is Allah</h1>
+        <p>
+          "Allah! There is no god except Him, the Ever-Living, All-Sustaining.
+          Neither drowsiness nor sleep overtakes Him. To Him belongs whatever is
+          in the heavens and whatever is on the earth. Who could possibly intercede
+          with Him without His permission? He knows what is ahead of them and what is
+          behind them, but no one can grasp any of His knowledge—except what He wills.
+          His Seat encompasses the heavens and the earth, and the preservation of both
+          does not tire Him. For He is the Most High, the Greatest."
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
